@@ -1,0 +1,24 @@
+machine:
+  node:
+    version: 7
+  environment:
+    PATH: "${PATH}:${HOME}/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+
+dependencies:
+  cache_directories:
+    - ~/.yarn
+  override:
+    - yarn
+    - yarn global add syncano-cli@beta
+
+test:
+  override:
+    - exit 0
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - syncano-cli deploy
+      - syncano-cli hosting config production --cname cookbook.syncano.io
+      - syncano-cli hosting sync production

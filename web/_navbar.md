@@ -1,0 +1,4 @@
+- Resources
+  - [Syncano CLI](https://github.com/Syncano/syncano-node-cli)
+  - [Syncano Client library](https://github.com/Syncano/syncano-client-js)
+  - [Syncano Server library](https://github.com/Syncano/syncano-server-js)
