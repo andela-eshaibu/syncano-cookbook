@@ -1,6 +1,8 @@
 # Creating objects in a database
 
 - Preparation: **1 minute**
+- Requirements:
+  - Initiated Syncano project
 
 ### Problem to solve
 
