@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - checkout
-      - run: yarn global add syncano-cli@beta
+      - run: sudo yarn global add syncano-cli@beta
       - run: syncano-cli deploy
       - run: syncano-cli hosting config production --cname cookbook.syncano.io
       - run: syncano-cli hosting sync production
