@@ -24,6 +24,8 @@
     - [Ethereum on Lightsail](/solutions/aws-ethereum)
   - Frameworks
     - [Rest Framework](/solutions/rest-framework)
+  - Middleware
+    - [Settings](/solutions/middleware)
 - Deployment
   - [Deploying projects using CircleCI](/deployment/circle-ci)
   - [Using multiple Syncano accounts](/deployment/multiple-accounts)

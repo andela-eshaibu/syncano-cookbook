@@ -75,7 +75,7 @@ export default async ctx => {
   try {
     const {user} = ctx.meta
     const fileLinks = await socket.post('aws-storage/make-links', {
-      fileList: [`${user.username}/file1.txt`, `${user.username}/file2.txt`]
+      fileNames: [`${user.username}/file1.txt`, `${user.username}/file2.txt`]
     })
     return response.json(fileLinks)
   } catch ({message}) {
