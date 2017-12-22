@@ -22,8 +22,6 @@
     - [Wordpress on Lightsail](/solutions/aws-wordpress)
     - [NodeJS on Lightsail](/solutions/aws-node)
     - [Ethereum on Lightsail](/solutions/aws-ethereum)
-  - Frameworks
-    - [Rest Framework](/solutions/rest-framework)
 - Deployment
   - [Deploying projects using CircleCI](/deployment/circle-ci)
   - [Using multiple Syncano accounts](/deployment/multiple-accounts)

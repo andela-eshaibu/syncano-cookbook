@@ -27,4 +27,4 @@ $ syncano-cli call aws-node/create-ls-instance
 
 ## Testing functionality
 
-Now you can login to your wordpress instance and start creating your fabulous nodejs service.
+Now you can login to your nodejs instance and start creating your fabulous nodejs service.

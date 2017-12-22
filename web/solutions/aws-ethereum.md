@@ -1,4 +1,4 @@
-# AWS Etherum
+# AWS Ethereum
 
 - Preparation: **1 minute**
 - Requirements:
@@ -12,7 +12,7 @@ If you haven't done that already please [configure](/solutions/aws-config) your 
 
 ## Installing dependencies
 
-To install `aws-etherum` type:
+To install `aws-ethereum` type:
 
 ```sh
 $ syncano-cli add aws-ethereum
