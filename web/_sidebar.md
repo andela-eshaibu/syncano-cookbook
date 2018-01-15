@@ -16,9 +16,16 @@
 - Complete solutions
   - Bots
     - [Facebook Weather Bot](/solutions/weather-bot)
+  - AWS
+    - [Configuration ](/solutions/aws-config)
+    - [Storage on S3](/solutions/aws-storage)
+    - [Wordpress on Lightsail](/solutions/aws-wordpress)
+    - [NodeJS on Lightsail](/solutions/aws-node)
+    - [Ethereum on Lightsail](/solutions/aws-ethereum)
 - Deployment
   - [Deploying projects using CircleCI](/deployment/circle-ci)
   - [Using multiple Syncano accounts](/deployment/multiple-accounts)
+- [Validation](/solutions/validator)
 - [Support](/common/support)
 - [Contributing](/common/contributing)
 - [License](/common/license)
