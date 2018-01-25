@@ -58,7 +58,7 @@ const s = new SyncanoClient('YOUR-INSTANCE-NAME');
 ### Actions for aws comprehend socket
 
 #### Sentiment of document
-To get the overall sentiment of a document (Positive, Negative, Neutral, or Mixed) send a request to `aws-comprehend/detect-sentiment` endpoint with parameter below
+To get the overall sentiment of a document (Positive, Negative, Neutral, or Mixed) send a request to `aws-comprehend/detect-sentiment` endpoint with sample parameter below
 
 ```javascript
 const param = {
@@ -82,7 +82,7 @@ s.post('aws-comprehend/detect-sentiment', param)
 ```
 
 #### Detect key phrases
-To detect key phrases and a confidence score to support that this is a key phrase send a request to `aws-comprehend/detect-key-phrases` endpoint with parameter below
+To detect key phrases and a confidence score to support that this is a key phrase send a request to `aws-comprehend/detect-key-phrases` endpoint with sample parameter below
 
 ```javascript
 const param = {
@@ -107,7 +107,7 @@ s.post('aws-comprehend/detect-key-phrases', param)
 
 
 #### Detect dominant language
-To determine the dominant language of the input text for a batch of documents send a request to `aws-comprehend/batch-detect-dominant-language` endpoint with parameter below
+To determine the dominant language of the input text for a batch of documents send a request to `aws-comprehend/batch-detect-dominant-language` endpoint with sample parameter below
 
 ```
 TextList:[
@@ -131,7 +131,7 @@ s.post('aws-comprehend/batch-detect-dominant-language', { TextList })
 ```
 
 #### Detect entities
-To detect entities like organisation, location for a batch of documents send a request to `aws-comprehend/batch-detect-dominant-language` endpoint with parameter below
+To detect entities like organisation, location for a batch of documents send a request to `aws-comprehend/batch-detect-dominant-language` endpoint with sample parameter below
 
 ```javascript
 const param = {
