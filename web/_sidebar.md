@@ -16,6 +16,8 @@
 - Complete solutions
   - Bots
     - [Facebook Weather Bot](/solutions/weather-bot)
+  - Authentication sockets
+    - [Two factor authentication](/solutions/two-factor-auth)
   - AWS
     - [Configuration ](/solutions/aws-config)
     - [Storage on S3](/solutions/aws-storage)
