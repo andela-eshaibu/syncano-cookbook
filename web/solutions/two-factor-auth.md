@@ -31,7 +31,7 @@ $ syncano-cli add two-factor-auth
 $ syncano-cli deploy two-factor-auth
 ```
 
-#### JavScript client setup
+#### JavaScript client setup
 Install
 
 ```sh
@@ -78,7 +78,7 @@ s.post('rest-auth/register', { username, password })
 
 To setup a user account for two factor authentication send a request to `two-factor-auth/setup-two-factor`
 
-with sample parameters below
+with parameters
 
 `username=[string]` - user email
 
@@ -119,7 +119,7 @@ Scan the QR code with a two-factor auth app like
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en)
 
 
-To complete the process send another request to `two-factor-auth/verify-token` with sample parameters
+To complete the process send another request to `two-factor-auth/verify-token` with parameters
 
 `username=[string]` - user email
 
@@ -147,7 +147,7 @@ s.post('two-factor-auth/verify-token', { username, token, two_factor_token })
 #### User login
 To login a user using either normal authentication and two-factor authentication send a request to `two-factor-auth/login`
 
-with sample parameters below
+with parameters
 
 `username=[string]` - user email
 
@@ -173,7 +173,7 @@ s.post('two-factor-auth/login', { username, token, two_factor_token })
 
 To disable two-factor authentication on user account send a request to `two-factor-auth/login`
 
-with sample parameters below
+with parameters
 
 `username=[string]` - user email
 

@@ -25,6 +25,7 @@
     - [NodeJS on Lightsail](/solutions/aws-node)
     - [Ethereum on Lightsail](/solutions/aws-ethereum)
     - [Comprehend](/solutions/aws-comprehend)
+    - [Elastic Transcoder](/solutions/aws-elastic-transcoder)
 - Deployment
   - [Deploying projects using CircleCI](/deployment/circle-ci)
   - [Using multiple Syncano accounts](/deployment/multiple-accounts)

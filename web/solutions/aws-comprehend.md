@@ -1,4 +1,4 @@
-# AWS comprehend socket
+# AWS Comprehend Socket
 
 - Preparation: **8 minutes**
 - Requirements:
@@ -37,7 +37,7 @@ Proceed to deploy `aws-comprehend` socket:
 $ syncano-cli deploy aws-comprehend
 ```
 
-#### JavScript client setup
+#### JavaScript client setup
 Install
 
 ```sh
