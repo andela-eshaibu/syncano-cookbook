@@ -1,6 +1,6 @@
 # Stripe Payment Integration
 
-* Preparation: **2 minute**
+* Preparation: **2 minutes**
 * Requirements:
   * Initiated Syncano project
   * Stripe secret_key
@@ -25,7 +25,7 @@ You want to integrate payment platform to your web application that allows users
 
 ### Solution
 
-Our solution is establised using [stripe-payments](https://syncano.io/#/sockets/stripe-payments) to trigger payment service.
+Our solution is established using [stripe-payments](https://syncano.io/#/sockets/stripe-payments) to trigger payment service.
 
 ### Installing dependencies
 
@@ -49,28 +49,30 @@ $ syncano-cli deploy stripe-payments
 
 #### Client-side
 
-Install syncano-client to interact with Syncano stripe-payments socket:
+Install syncano-client to interact with Syncano stripe-payments socket: 
+N/B: There are two way's of achieving installation.
+
+1. When using webpack and es6 the way to handle the client lib is:
+Shell:
 
 ```sh
-$ npm install syncano-client --save
-```
-
-or
-
-```HTML
-<script src="https://unpkg.com/syncano-client"></script>
-```
-
-To use Syncano library, import:
-
-```javascript
-import Syncano from "syncano-client";
+$ npm i -S @syncano/client
 ```
 
 Create a connection by initializing Syncano object with instance name:
 
 ```javascript
-const s = new Syncano("MY_INSTANCE_NAME");
+import SyncanoClient from "@syncano/client"
+
+const s = new SyncanoClient("MY_INSTANCE_NAME");
+```
+
+2. And the vanilla js way:
+```HTML
+<script src="https://unpkg.com/@syncano/client"></script>
+<script>
+  const s = new SyncanoClient("MY_INSTANCE_NAME");
+</script>
 ```
 
 Implement charge process using stripe test cards:
@@ -97,4 +99,4 @@ const make_payment = async card_details => {
 
 ### Testing functionality
 
-Now you can create a payment form collecting `card details` from user ans pass to script file.
+Now you can create a payment form collecting `card details` from user and pass to script file.
